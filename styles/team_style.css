@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica Neue;
+}
+
+body {
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+ .our_team_cont {
+  width: 80%;
+  max-width: 1200px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+
+.our_team_cont {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.our_team_cont > p {
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica Neue;
+  font-size: 24px;
+
+}
+
+.team_list {
+  height: 85%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+
+}
+
+.team_list > img {
+  position: absolute;
+  display: flex;
+  z-index: 0;
+  width: 200%;
+  height: 50%;
+  top: 0%;
+
+}
+
+.team_member {
+  width: 25%;
+  height: 85%;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team_member img {
+  width: 100%;
+  height: auto;
+}
+
+.member_name {
+  font-weight: 500;
+  font-size: 19px;
+  text-align: center;
+}
+
+.member_title {
+  font-size: 15px;
+  text-align: center;
+  font-weight: 300;
+}
+
+
+
+
+
+
+@media screen and (min-width: 1000px) and (max-width: 1281px) {
+
+
+
+
+  .content_cont {
+    height: 80%;
+  }
+
+  .menu-item{
+    font-size: 18px;
+  }
+
+  .learn-shop-but {
+    font-size: 17px;
+    height: 50px;
+    margin: 0% 5% 0 ;
+    width: 30%;
+
+  }
+
+  .presentation {
+    font-size: 30px;
+    top: -50px;
+  }
+  .main_cont {
+    background-size: 130%;
+
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 420px) {
+
+
+  .main_cont {
+    background-size: auto 100vh;
+    background-position: 40% 40%;
+  }
+
+
+  .presentation {
+    width: 87%;
+    color: white;
+    font-size: 40px;
+    top: 60px;
+    position: relative;
+    z-index: 1;
+
+  }
+
+  .presentation_cont{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    justify-content: space-around;
+
+
+  }
+
+  .learn-shop-cont{
+    flex-direction: column;
+    width: 75%;
+    justify-content: space-around;
+    height: 30%;
+  }
+
+
+  .learn-shop-but {
+    width: 75%;
+    height: 65px;
+    font-size: 20px;
+    flex-direction: column;
+    margin: 0;
+
+  }
+
+}

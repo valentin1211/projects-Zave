@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica Neue;
+}
+
+body {
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.main_cont {
+  height: auto;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+
+
+.content_cont {
+  width: 100%;
+  height: 90%;
+  position: relative;
+  top:40px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.newsletter_cont {
+  width: 80%;
+  max-width: 1200px;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+
+.title_sub_cont {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 20%;
+}
+
+.news_title {
+  font-size: 24px;
+}
+
+.sub_title {
+  font-size: 22px;
+
+}
+
+form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.email_cont {
+  width: 80%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  border-bottom: solid 1px black;
+}
+
+.email_cont img {
+  height: 100%;
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.email_cont > input {
+  border: none;
+  height: 80%;
+  font-size: 18px;
+  width: 50%;
+}
+
+input:focus{
+  outline: none;
+}
+
+.sub_button{
+  height: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: solid 1px black;
+  font-size: 20px;
+  margin-top: 20px;
+  background-color: white;
+  cursor: pointer;
+
+}
+
+
+
+@media screen and (min-width: 1000px) and (max-width: 1281px) {
+
+
+
+
+  .content_cont {
+    height: 80%;
+  }
+
+  .menu-item{
+    font-size: 18px;
+  }
+
+  .learn-shop-but {
+    font-size: 17px;
+    height: 50px;
+    margin: 0% 5% 0 ;
+    width: 30%;
+
+  }
+
+  .presentation {
+    font-size: 30px;
+    top: -50px;
+  }
+  .main_cont {
+    background-size: 130%;
+
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 420px) {
+
+
+  .main_cont {
+    background-size: auto 100vh;
+    background-position: 40% 40%;
+  }
+
+
+  .presentation {
+    width: 87%;
+    color: white;
+    font-size: 40px;
+    top: 60px;
+    position: relative;
+    z-index: 1;
+
+  }
+
+  .presentation_cont{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    justify-content: space-around;
+
+
+  }
+
+  .learn-shop-cont{
+    flex-direction: column;
+    width: 75%;
+    justify-content: space-around;
+    height: 30%;
+  }
+
+
+  .learn-shop-but {
+    width: 75%;
+    height: 65px;
+    font-size: 20px;
+    flex-direction: column;
+    margin: 0;
+
+  }
+
+}

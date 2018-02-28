@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: skyblue;
+
+}
+
+form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+table {
+  background-color: #8DB600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1000px;
+  border:1;
+  border: solid 1px black;
+}
+
+ td {
+  border: solid 1px black;
+  width: 400px;
+  display: flex;
+  align-items: center;
+}
+
+td  input, td select, td textarea {
+  margin: 5px 5px 5px 15px;
+  width: 150px;
+  max-height: 100px;
+}
+
+tr {
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.table_title{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.prod_char{
+  justify-content: flex-end;
+  padding-right: 15px;
+}
+
+.submit_values{
+  padding:0;
+  justify-content: center;
+  border: none;
+}

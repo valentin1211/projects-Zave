@@ -1,0 +1,16 @@
+.icon-logo {
+  filter: invert(0%);
+}
+
+  .menu-item a {
+    color: white;
+
+  }
+
+  @media screen and (min-width: 300px) and (max-width: 420px) {
+    .menu-item a {
+      color: black;
+
+    }
+
+  }
